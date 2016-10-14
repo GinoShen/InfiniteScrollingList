@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3418B0681DB080BE004B7B67 /* RecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418B0671DB080BE004B7B67 /* RecordListViewController.m */; };
+		3418B06B1DB084CE004B7B67 /* RecordViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418B06A1DB084CE004B7B67 /* RecordViewCell.m */; };
+		34F13E561DAFDDFC00C7CEED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E551DAFDDFC00C7CEED /* main.m */; };
+		34F13E591DAFDDFC00C7CEED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E581DAFDDFC00C7CEED /* AppDelegate.m */; };
+		34F13E5F1DAFDDFC00C7CEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F13E5D1DAFDDFC00C7CEED /* Main.storyboard */; };
+		34F13E611DAFDDFC00C7CEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F13E601DAFDDFC00C7CEED /* Assets.xcassets */; };
+		34F13E641DAFDDFC00C7CEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F13E621DAFDDFC00C7CEED /* LaunchScreen.storyboard */; };
+		34F13E6F1DAFDDFC00C7CEED /* InfinitScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E6E1DAFDDFC00C7CEED /* InfinitScrollTests.m */; };
+		34F13E7F1DAFDED400C7CEED /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E7E1DAFDED400C7CEED /* RecordModel.m */; };
+		34F13E821DAFDEE500C7CEED /* SourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E811DAFDEE500C7CEED /* SourceModel.m */; };
+		34F13E851DAFDEF900C7CEED /* DestinationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E841DAFDEF900C7CEED /* DestinationModel.m */; };
+		34F13E881DAFE25B00C7CEED /* ServerApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F13E871DAFE25B00C7CEED /* ServerApiManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F13E6B1DAFDDFC00C7CEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F13E491DAFDDFC00C7CEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F13E501DAFDDFC00C7CEED;
+			remoteInfo = InfinitScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3418B0661DB080BE004B7B67 /* RecordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordListViewController.h; sourceTree = "<group>"; };
+		3418B0671DB080BE004B7B67 /* RecordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordListViewController.m; sourceTree = "<group>"; };
+		3418B0691DB084CE004B7B67 /* RecordViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewCell.h; sourceTree = "<group>"; };
+		3418B06A1DB084CE004B7B67 /* RecordViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewCell.m; sourceTree = "<group>"; };
+		34F13E511DAFDDFC00C7CEED /* InfinitScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F13E551DAFDDFC00C7CEED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F13E571DAFDDFC00C7CEED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34F13E581DAFDDFC00C7CEED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34F13E5E1DAFDDFC00C7CEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F13E601DAFDDFC00C7CEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F13E631DAFDDFC00C7CEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F13E651DAFDDFC00C7CEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F13E6A1DAFDDFC00C7CEED /* InfinitScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F13E6E1DAFDDFC00C7CEED /* InfinitScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinitScrollTests.m; sourceTree = "<group>"; };
+		34F13E701DAFDDFC00C7CEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F13E7D1DAFDED400C7CEED /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		34F13E7E1DAFDED400C7CEED /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		34F13E801DAFDEE500C7CEED /* SourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceModel.h; sourceTree = "<group>"; };
+		34F13E811DAFDEE500C7CEED /* SourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceModel.m; sourceTree = "<group>"; };
+		34F13E831DAFDEF900C7CEED /* DestinationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationModel.h; sourceTree = "<group>"; };
+		34F13E841DAFDEF900C7CEED /* DestinationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationModel.m; sourceTree = "<group>"; };
+		34F13E861DAFE25B00C7CEED /* ServerApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerApiManager.h; sourceTree = "<group>"; };
+		34F13E871DAFE25B00C7CEED /* ServerApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerApiManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F13E4E1DAFDDFC00C7CEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F13E671DAFDDFC00C7CEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F13E481DAFDDFC00C7CEED = {
+			isa = PBXGroup;
+			children = (
+				34F13E531DAFDDFC00C7CEED /* InfinitScroll */,
+				34F13E6D1DAFDDFC00C7CEED /* InfinitScrollTests */,
+				34F13E521DAFDDFC00C7CEED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F13E521DAFDDFC00C7CEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E511DAFDDFC00C7CEED /* InfinitScroll.app */,
+				34F13E6A1DAFDDFC00C7CEED /* InfinitScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F13E531DAFDDFC00C7CEED /* InfinitScroll */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E571DAFDDFC00C7CEED /* AppDelegate.h */,
+				34F13E581DAFDDFC00C7CEED /* AppDelegate.m */,
+				34F13E791DAFDE2E00C7CEED /* src */,
+				34F13E5D1DAFDDFC00C7CEED /* Main.storyboard */,
+				34F13E601DAFDDFC00C7CEED /* Assets.xcassets */,
+				34F13E621DAFDDFC00C7CEED /* LaunchScreen.storyboard */,
+				34F13E651DAFDDFC00C7CEED /* Info.plist */,
+				34F13E541DAFDDFC00C7CEED /* Supporting Files */,
+			);
+			path = InfinitScroll;
+			sourceTree = "<group>";
+		};
+		34F13E541DAFDDFC00C7CEED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E551DAFDDFC00C7CEED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F13E6D1DAFDDFC00C7CEED /* InfinitScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E6E1DAFDDFC00C7CEED /* InfinitScrollTests.m */,
+				34F13E701DAFDDFC00C7CEED /* Info.plist */,
+			);
+			path = InfinitScrollTests;
+			sourceTree = "<group>";
+		};
+		34F13E791DAFDE2E00C7CEED /* src */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E7A1DAFDE2E00C7CEED /* controller */,
+				34F13E7B1DAFDE2E00C7CEED /* model */,
+				34F13E7C1DAFDE2E00C7CEED /* view */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		34F13E7A1DAFDE2E00C7CEED /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3418B0661DB080BE004B7B67 /* RecordListViewController.h */,
+				3418B0671DB080BE004B7B67 /* RecordListViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		34F13E7B1DAFDE2E00C7CEED /* model */ = {
+			isa = PBXGroup;
+			children = (
+				34F13E861DAFE25B00C7CEED /* ServerApiManager.h */,
+				34F13E871DAFE25B00C7CEED /* ServerApiManager.m */,
+				34F13E7D1DAFDED400C7CEED /* RecordModel.h */,
+				34F13E7E1DAFDED400C7CEED /* RecordModel.m */,
+				34F13E801DAFDEE500C7CEED /* SourceModel.h */,
+				34F13E811DAFDEE500C7CEED /* SourceModel.m */,
+				34F13E831DAFDEF900C7CEED /* DestinationModel.h */,
+				34F13E841DAFDEF900C7CEED /* DestinationModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		34F13E7C1DAFDE2E00C7CEED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3418B0691DB084CE004B7B67 /* RecordViewCell.h */,
+				3418B06A1DB084CE004B7B67 /* RecordViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F13E501DAFDDFC00C7CEED /* InfinitScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F13E731DAFDDFC00C7CEED /* Build configuration list for PBXNativeTarget "InfinitScroll" */;
+			buildPhases = (
+				34F13E4D1DAFDDFC00C7CEED /* Sources */,
+				34F13E4E1DAFDDFC00C7CEED /* Frameworks */,
+				34F13E4F1DAFDDFC00C7CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitScroll;
+			productName = InfinitScroll;
+			productReference = 34F13E511DAFDDFC00C7CEED /* InfinitScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F13E691DAFDDFC00C7CEED /* InfinitScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F13E761DAFDDFC00C7CEED /* Build configuration list for PBXNativeTarget "InfinitScrollTests" */;
+			buildPhases = (
+				34F13E661DAFDDFC00C7CEED /* Sources */,
+				34F13E671DAFDDFC00C7CEED /* Frameworks */,
+				34F13E681DAFDDFC00C7CEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F13E6C1DAFDDFC00C7CEED /* PBXTargetDependency */,
+			);
+			name = InfinitScrollTests;
+			productName = InfinitScrollTests;
+			productReference = 34F13E6A1DAFDDFC00C7CEED /* InfinitScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F13E491DAFDDFC00C7CEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gino;
+				TargetAttributes = {
+					34F13E501DAFDDFC00C7CEED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					34F13E691DAFDDFC00C7CEED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 34F13E501DAFDDFC00C7CEED;
+					};
+				};
+			};
+			buildConfigurationList = 34F13E4C1DAFDDFC00C7CEED /* Build configuration list for PBXProject "InfinitScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F13E481DAFDDFC00C7CEED;
+			productRefGroup = 34F13E521DAFDDFC00C7CEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F13E501DAFDDFC00C7CEED /* InfinitScroll */,
+				34F13E691DAFDDFC00C7CEED /* InfinitScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F13E4F1DAFDDFC00C7CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F13E641DAFDDFC00C7CEED /* LaunchScreen.storyboard in Resources */,
+				34F13E611DAFDDFC00C7CEED /* Assets.xcassets in Resources */,
+				34F13E5F1DAFDDFC00C7CEED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F13E681DAFDDFC00C7CEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F13E4D1DAFDDFC00C7CEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3418B0681DB080BE004B7B67 /* RecordListViewController.m in Sources */,
+				34F13E851DAFDEF900C7CEED /* DestinationModel.m in Sources */,
+				34F13E7F1DAFDED400C7CEED /* RecordModel.m in Sources */,
+				34F13E591DAFDDFC00C7CEED /* AppDelegate.m in Sources */,
+				34F13E881DAFE25B00C7CEED /* ServerApiManager.m in Sources */,
+				3418B06B1DB084CE004B7B67 /* RecordViewCell.m in Sources */,
+				34F13E821DAFDEE500C7CEED /* SourceModel.m in Sources */,
+				34F13E561DAFDDFC00C7CEED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F13E661DAFDDFC00C7CEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F13E6F1DAFDDFC00C7CEED /* InfinitScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F13E6C1DAFDDFC00C7CEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F13E501DAFDDFC00C7CEED /* InfinitScroll */;
+			targetProxy = 34F13E6B1DAFDDFC00C7CEED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F13E5D1DAFDDFC00C7CEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F13E5E1DAFDDFC00C7CEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F13E621DAFDDFC00C7CEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F13E631DAFDDFC00C7CEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F13E711DAFDDFC00C7CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F13E721DAFDDFC00C7CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F13E741DAFDDFC00C7CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfinitScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gino.infinitScroll.InfinitScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34F13E751DAFDDFC00C7CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfinitScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gino.infinitScroll.InfinitScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34F13E771DAFDDFC00C7CEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfinitScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gino.infinitScroll.InfinitScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitScroll.app/InfinitScroll";
+			};
+			name = Debug;
+		};
+		34F13E781DAFDDFC00C7CEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfinitScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gino.infinitScroll.InfinitScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfinitScroll.app/InfinitScroll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F13E4C1DAFDDFC00C7CEED /* Build configuration list for PBXProject "InfinitScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F13E711DAFDDFC00C7CEED /* Debug */,
+				34F13E721DAFDDFC00C7CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F13E731DAFDDFC00C7CEED /* Build configuration list for PBXNativeTarget "InfinitScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F13E741DAFDDFC00C7CEED /* Debug */,
+				34F13E751DAFDDFC00C7CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F13E761DAFDDFC00C7CEED /* Build configuration list for PBXNativeTarget "InfinitScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F13E771DAFDDFC00C7CEED /* Debug */,
+				34F13E781DAFDDFC00C7CEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F13E491DAFDDFC00C7CEED /* Project object */;
+}
